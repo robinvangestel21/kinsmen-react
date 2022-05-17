@@ -11,5 +11,5 @@ It is still in progress, but can be viewed at the following link.
 
 Link: https://kinsmen-collective-staging.netlify.app
 
-Started writing around: march 2021
+Started writing around: march 2022
 Last update: may 2022
