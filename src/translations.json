@@ -1,0 +1,120 @@
+{
+  "nl": {
+    "title": "Nederlands",
+    "home": {
+      "title": "Wij zijn Kinsmen Collective.\nOntwerpers, artiesten en content makers\nmet verstand van marketing."
+    },
+    "work": {
+      "filter": {
+        "filter": "filter",
+        "all": "alles",
+        "animation": "animatie",
+        "video": "video",
+        "illustration": "illustratie",
+        "photography": "fotografie"
+      }
+    },
+    "project": {
+      "nextProject": "volgend project",
+      "previousProject": "vorig project"
+    },
+    "about": {
+      "title": "Kinsmen is een design gedreven productie bedrijf. Wij specialiseren ons in illustratie, animatie, concept, video en fotografie.",
+      "titleDescription": "Kinsmen is een design gedreven productiebedrijf. Wij zijn een collectief van ontwerpers, artiesten en content makers met verstand van marketing. We werken graag met klanten die net als wij grote ideeën hebben en hard werken om dromen waar te maken. Complexe concepten maken we toegankelijk, onderhoudend, overtuigend en van de best mogelijke kwaliteit. In vele vormen, voor uiteenlopende momenten en veranderende kanalen.",
+      "collectiveTitle": "The collective",
+      "jobs": {
+        "cofounder": "Co-founder",
+        "generalDirector": "Algemeen directeur",
+        "creativeDirector": "Creatief directeur",
+        "seniorMotionDesigner": "Senior motion designer",
+        "frontEndDeveloper": "Front end developer",
+        "designer": "Designer",
+        "motionDesigner": "Motion designer",
+        "composer": "Componist",
+        "soundDesigner": "Sound designer",
+        "photographer": "Fotograaf",
+        "videographer": "Videograaf"
+      },
+      "rootsTitle": "Onze roots",
+      "rootsDescription": [
+        "De neven Bart & Bas van Gestel zijn oprichters van Kinsmen Collective. Onze naam is dan ook ontleend aan de familie van Gestel uit de jaren ’80 en ’90. Bij opa en oma van Gestel waren regelmatig heel veel mensen op bezoek. Kinderen, kleinkinderen en vrienden. Lange tafels en dagen gevuld met gezelligheid. Iedereen kende elkaar goed, wist wat men aan elkaar had. Deze bonte verzameling van mensen leunde op elkaar in een sfeer van liefde, respect en vertrouwen.",
+        "Vanuit deze herinnering is Kinsmen Collective ontstaan. In ons collectief van professionals staan plezier, respect en vertrouwen centraal. Naar elkaar en naar klanten. Want klant word je bij ons omdat je er belang aan hecht met wie je werkt. Wanneer jouw vertrouwen er is, kunnen wij excelleren in het maken van mooie, werkende content. Wat je doel ook is."
+      ]
+    },
+    "general": {
+      "viewProject": "Bekijk project",
+      "viewAllProjects": "Bekijk alle projecten",
+      "header": {
+        "nl": "NL",
+        "en": "EN",
+        "work": "werk",
+        "about": "over ons",
+        "anymigo": "anymigo"
+      },
+      "footer": {
+        "title": "Wij zijn een collectief van ontwerpers, artiesten en content makers met verstand van marketing.",
+        "vat": "BTW",
+        "address": "Adres"
+      }
+    }
+  },
+  "en-US": {
+    "title": "English",
+    "home": {
+      "title": "We are Kinsmen Collective.\nDesigners, artists and content creators\nwith a marketing mind."
+    },
+    "work": {
+      "filter": {
+        "filter": "filter",
+        "all": "all",
+        "animation": "animation",
+        "video": "video",
+        "illustration": "illustration",
+        "photography": "photography"
+      }
+    },
+    "project": {
+      "nextProject": "next project",
+      "previousProject": "previous project"
+    },
+    "about": {
+      "title": "Kinsmen is a design driven production company. We specialize in illustration, animation, concept, video and photography.",
+      "titleDescription": "Kinsmen is a design driven production company. We are a collective of designers, artists and content creators with a marketing mind. We love to work with clients who have great ideas, just like us, and who work hard to make dreams come true. We make complex concepts attainable, maintainable, convincing and of the best possible quality. In many shapes, for various moments and changing channels.",
+      "collectiveTitle": "The collective",
+      "jobs": {
+        "cofounder": "Co-founder",
+        "generalDirector": "General director",
+        "creativeDirector": "Creative director",
+        "seniorMotionDesigner": "Senior motion designer",
+        "frontEndDeveloper": "Front end developer",
+        "designer": "Designer",
+        "motionDesigner": "Motion designer",
+        "composer": "Composer",
+        "soundDesigner": "Sound designer",
+        "photographer": "Photographer",
+        "videographer": "Videographer"
+      },
+      "rootsTitle": "Our roots",
+      "rootsDescription": [
+        "The cousins Bart & Bas van Gestel are the founders of Kinsmen Collective. Our name is therefore derived from the family van Gestel from the ’80 and the ’90. Many people regularly visited van Gestel's grandfather and grandmother. Children, grandchildren and friends. Long tables and days filled with 'gezelligheid' (loosely translated as cosiness). Everybody knew each other well and knew they could depend on one another. This colorful collection of people leaned on each other in an atmosphere of love, respect and trust.",
+        "From this memory, Kinsmen originated. In our collective of professionals: fun, respect and trust take center stage. Towards each other and towards clients. Because you become a customer of Kinsmen when you value who you work with. When your trust is there, we can excel in creating beautiful, working content. Whatever your goal is."
+      ]
+    },
+    "general": {
+      "viewProject": "View project",
+      "viewAllProjects": "View all projects",
+      "header": {
+        "nl": "NL",
+        "en": "EN",
+        "work": "work",
+        "about": "about",
+        "anymigo": "anymigo"
+      },
+      "footer": {
+        "title": "We are a collective of designers, artists and content creators with a marketing mind.",
+        "vat": "VAT",
+        "address": "Address"
+      }
+    }
+  }
+}

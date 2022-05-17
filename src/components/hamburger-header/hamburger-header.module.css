@@ -1,0 +1,37 @@
+.container {
+  color: var(--beige);
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-end;
+  padding: 32px 5%;
+  gap: 6px;
+}
+.link {
+  font-size: var(--font-size-hamburger-header);
+  font-family: DM Serif Display, serif;
+}
+.langButtonContainer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 10px;
+}
+.langButtonContainer button {
+  opacity: 0.7;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  color: var(--beige);
+  font-size: var(--font-size-hamburger-header-language);
+}
+.langButtonContainer span {
+  height: var(--font-size-hamburger-header-language);
+  width: 2px;
+  background-color: var(--beige);
+}
+.langButtonContainer button.active {
+  opacity: 1;
+}

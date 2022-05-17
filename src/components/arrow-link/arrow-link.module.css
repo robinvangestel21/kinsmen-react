@@ -1,0 +1,39 @@
+.link {
+  display: flex;
+  cursor: pointer;
+  transition: opacity 350ms ease;
+}
+.link:hover {
+  opacity: 0.7;
+}
+.regularLink svg {
+  margin-left: 8px;
+  transition: transform 350ms ease, opacity 350ms ease;
+}
+.regularLink:hover svg {
+  transform: translateX(8px);
+  opacity: 0.7;
+}
+.inverseLink {
+  flex-direction: row-reverse;
+}
+.inverseLink svg {
+  margin-right: 8px;
+  transform: rotate(180deg);
+  transition: transform 350ms ease, opacity 350ms ease;
+}
+.inverseLink:hover svg {
+  transform: translateX(-8px) rotate(180deg);
+  opacity: 0.7;
+}
+
+.largeLink {
+  font-style: italic;
+  font-family: "DM Serif Display", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.smallLink {
+  text-transform: uppercase;
+  font-weight: 600;
+}

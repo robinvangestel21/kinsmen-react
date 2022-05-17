@@ -1,0 +1,24 @@
+.hamburgerButton {
+  width: 20px;
+}
+.line {
+  transition: opacity 200ms ease, transform 500ms ease;
+}
+
+.topLine {
+  transform-origin: top right;
+}
+.topLineActive {
+  transform: rotate(-45deg) translate(-17.5%, 0);
+  transform-origin: top right;
+}
+.middleLine {
+  opacity: 0;
+}
+.bottomLineActive {
+  transform: rotate(45deg) translate(-17.5%, 0);
+  transform-origin: bottom right;
+}
+.bottomLine {
+  transform-origin: bottom right;
+}

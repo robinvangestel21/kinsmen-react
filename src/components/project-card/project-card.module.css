@@ -1,0 +1,10 @@
+.title {
+  font-size: var(--font-size-title-work-overlay);
+  text-align: center;
+  font-style: italic;
+}
+.subtitle {
+  font-size: var(--font-size-subtitle-work-overlay);
+  font-family: Barlow, sans-serif;
+  text-align: center;
+}

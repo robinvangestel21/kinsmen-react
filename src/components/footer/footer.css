@@ -1,0 +1,78 @@
+.footerContainer {
+  margin: 0 auto 0 auto;
+  max-width: 1436px;
+  padding: 32px 50px 32px 50px;
+  color: var(--white);
+}
+.beigeBackground {
+  background-color: var(--beige);
+  color: var(--black);
+}
+.footerLogo {
+  width: 50px;
+}
+
+.footerHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.footerHeader .footerTitle {
+  max-width: 700px;
+  font-size: var(--font-size-footer-title);
+  line-height: 1.1;
+}
+
+.footerGrid {
+  max-width: 1100px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 70px 0 70px 0;
+}
+.gridItem {
+  display: flex;
+  flex-direction: column;
+}
+.gridItem h2 {
+  color: var(--light-gray);
+  font-style: italic;
+}
+.footerCopyright {
+  font-size: var(--font-size-footer-copyright);
+}
+.gridItem a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1500px) {
+  .footerContainer {
+    padding-left: 82px;
+    padding-right: 82px;
+  }
+}
+@media only screen and (max-width: 785px) {
+  .footerGrid {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .gridItem {
+    width: 50%;
+    margin: 0 0 20px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footerContainer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .gridItem {
+    width: 100%;
+  }
+  .logo {
+    display: none;
+  }
+}

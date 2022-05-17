@@ -1,0 +1,47 @@
+.container {
+  margin: 50px 0 20px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: var(--font-size-filter-buttons);
+  color: var(--medium-gray);
+  transition: color 350ms ease;
+}
+button:hover {
+  color: var(--black);
+}
+
+.chevron {
+  height: 15px;
+  margin: 0 10px 0 0;
+  transition: transform 500ms ease;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  animation: 3s fade-in;
+  animation-timing-function: ease;
+}
+.rotated {
+  transform: rotate(180deg);
+}
+
+.container button:not(:nth-last-child(1)) {
+  margin-right: 15px;
+}
+.active {
+  color: var(--black);
+}

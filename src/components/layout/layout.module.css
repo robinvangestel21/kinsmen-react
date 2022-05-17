@@ -1,0 +1,29 @@
+.wrapper {
+  position: relative;
+  z-index: 1;
+  background-color: var(--beige);
+  transition: transform 500ms ease;
+}
+.container {
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0 auto 0 auto;
+}
+
+.main {
+  flex: 1;
+}
+
+@media only screen and (max-width: 1564px) {
+  .container {
+    margin: 0 32px 0 32px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .container {
+    margin: 0 5% 0 5%;
+  }
+}

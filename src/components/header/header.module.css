@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 0 32px 0;
+}
+
+.headerLogo {
+  width: 50px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-direction: row;
+  list-style-type: none;
+}
+.navigation li {
+  display: inline;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.headerLink {
+  transition: color 250ms ease;
+  font-size: var(--font-size-header-links);
+  font-weight: 500;
+}
+.headerLink::after {
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  margin: 0 auto 0 auto;
+  display: block;
+  background-color: transparent;
+}
+.headerLink:hover::after {
+  background-color: var(--light-gray);
+}
+.active::after {
+  background-color: var(--black);
+}
+.headerLink:hover {
+  color: var(--light-gray);
+}
+.langButtonContainer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.langButtonContainer span {
+  height: var(--font-size-header-links);
+  width: 2px;
+  background-color: var(--black);
+}
+.langButtonContainer button {
+  font-size: var(--font-size-header-links);
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  color: var(--light-gray);
+  transition: color 250ms ease;
+}
+
+.langButtonContainer button:hover {
+  color: var(--black);
+}
+
+.langButtonContainer .active {
+  color: var(--black);
+}
+
+@media only screen and (max-width: 785px) {
+  .headerLogo {
+    width: 30px;
+  }
+}

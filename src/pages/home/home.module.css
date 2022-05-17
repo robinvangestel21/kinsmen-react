@@ -1,0 +1,17 @@
+.title {
+  font-size: var(--font-size-titles);
+  text-align: center;
+  margin: 30px auto 50px auto;
+  line-height: 1.2;
+}
+.projectCardContainer {
+  display: flex;
+  gap: 100px;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.arrowLinkContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
